@@ -45,7 +45,13 @@ class TestController extends Controller
         $res=RegiModel::where('email',$data['email'])->first();
         if ($res){
             if ($data['password']==$res->password){
-
+                $token=md5($data['password'].$data['email']);
+                $arr=[
+                    'code' =>200,
+                    'msg'  =>'登陆成功',
+                    'token'=>$token,
+                ];
+                echo json_encode($arr);
             }else{
                 $arr=[
                     'code' =>204,
