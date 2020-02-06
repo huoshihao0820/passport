@@ -10,9 +10,12 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+header("Access-Control-Allow-Origin: *");
 Route::get('/', function () {
     return view('welcome');
 });
-Route::any('/test/register','TestController@register');
+Route::post('/test/register','TestController@register');
 Route::any('/test/login','TestController@login');
+Route::any('/test/showTime','TestController@showTime');
+Route::any('/goods/create','TestController@create');
+
