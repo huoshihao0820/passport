@@ -219,6 +219,19 @@ class TestController extends Controller
             echo json_encode($arr);
         }
     }
+    public function encrypt(){
+	            $data=$_GET['data'];
+		             $data=base64_decode($data);
+		                    // echo $data;
+		                          $method="AES-128-CBC";
+		                              $key='1905abc';
+		                         $iv='abcdefghijkrmnop';
+		                       $ponse=openssl_decrypt($data,$method,$key,OPENSSL_RAW_DATA,$iv);
+		                           // echo $ponse;
+		                             $ponse=json_decode($ponse);
+		                                 print_r($ponse);
+		        }
+		    //
     protected function gettoken($uid){
         $token=md5(time().mt_rand(11111,99999).$uid);
         return substr($token,5,20);
