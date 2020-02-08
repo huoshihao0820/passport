@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8955319b-371f-46e1-b0be-e5f6d36280a9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/blade.xml" afterPath="$PROJECT_DIR$/.idea/blade.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/passportcom.iml" afterPath="$PROJECT_DIR$/.idea/passportcom.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/TestController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TestController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/GoodsModel.php" afterPath="$PROJECT_DIR$/app/models/GoodsModel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/RegiModel.php" afterPath="$PROJECT_DIR$/app/models/RegiModel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artisan" afterPath="$PROJECT_DIR$/artisan" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/keys/pub_key" afterPath="$PROJECT_DIR$/storage/keys/pub_key" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,15 +25,16 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="TestController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TestController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="166" column="34" lean-forward="true" selection-start-line="166" selection-start-column="34" selection-end-line="166" selection-end-column="34" />
+            <state relative-caret-position="560">
+              <caret line="156" column="47" lean-forward="false" selection-start-line="156" selection-start-column="47" selection-end-line="156" selection-end-column="47" />
               <folding>
                 <element signature="e#39#64#0#PHP" expanded="true" />
                 <element signature="e#239#1547#0#PHP" expanded="false" />
                 <element signature="e#1552#5361#0#PHP" expanded="false" />
+                <element signature="e#5366#6425#0#PHP" expanded="false" />
                 <element signature="e#6430#6801#0#PHP" expanded="false" />
                 <element signature="e#6806#6936#0#PHP" expanded="false" />
               </folding>
@@ -30,10 +42,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
+            <state relative-caret-position="358">
               <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="26" />
               <folding />
             </state>
@@ -303,12 +315,12 @@
       <workItem from="1579442236038" duration="683000" />
       <workItem from="1579691959347" duration="3444000" />
       <workItem from="1580795635861" duration="1336000" />
-      <workItem from="1580862621049" duration="5406000" />
+      <workItem from="1580862621049" duration="6615000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27319000" />
+    <option name="totallyTimeSpent" value="28528000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="7" />
@@ -355,6 +367,7 @@
             <element signature="e#39#64#0#PHP" expanded="true" />
             <element signature="e#239#1547#0#PHP" expanded="false" />
             <element signature="e#1552#5361#0#PHP" expanded="false" />
+            <element signature="e#5366#6425#0#PHP" expanded="false" />
             <element signature="e#6430#6801#0#PHP" expanded="false" />
             <element signature="e#6806#6936#0#PHP" expanded="false" />
           </folding>
@@ -393,6 +406,7 @@
             <element signature="e#39#64#0#PHP" expanded="true" />
             <element signature="e#239#1547#0#PHP" expanded="false" />
             <element signature="e#1552#5361#0#PHP" expanded="false" />
+            <element signature="e#5366#6425#0#PHP" expanded="false" />
             <element signature="e#6430#6801#0#PHP" expanded="false" />
             <element signature="e#6806#6936#0#PHP" expanded="false" />
           </folding>
@@ -439,6 +453,7 @@
             <element signature="e#39#64#0#PHP" expanded="true" />
             <element signature="e#239#1547#0#PHP" expanded="false" />
             <element signature="e#1552#5361#0#PHP" expanded="false" />
+            <element signature="e#5366#6425#0#PHP" expanded="false" />
             <element signature="e#6430#6801#0#PHP" expanded="false" />
             <element signature="e#6806#6936#0#PHP" expanded="false" />
           </folding>
@@ -461,6 +476,7 @@
             <element signature="e#39#64#0#PHP" expanded="true" />
             <element signature="e#239#1547#0#PHP" expanded="false" />
             <element signature="e#1552#5361#0#PHP" expanded="false" />
+            <element signature="e#5366#6425#0#PHP" expanded="false" />
             <element signature="e#6430#6801#0#PHP" expanded="false" />
             <element signature="e#6806#6936#0#PHP" expanded="false" />
           </folding>
@@ -483,6 +499,7 @@
             <element signature="e#39#64#0#PHP" expanded="true" />
             <element signature="e#239#1547#0#PHP" expanded="false" />
             <element signature="e#1552#5361#0#PHP" expanded="false" />
+            <element signature="e#5366#6425#0#PHP" expanded="false" />
             <element signature="e#6430#6801#0#PHP" expanded="false" />
             <element signature="e#6806#6936#0#PHP" expanded="false" />
           </folding>
@@ -505,6 +522,7 @@
             <element signature="e#39#64#0#PHP" expanded="true" />
             <element signature="e#239#1547#0#PHP" expanded="false" />
             <element signature="e#1552#5361#0#PHP" expanded="false" />
+            <element signature="e#5366#6425#0#PHP" expanded="false" />
             <element signature="e#6430#6801#0#PHP" expanded="false" />
             <element signature="e#6806#6936#0#PHP" expanded="false" />
           </folding>
@@ -515,14 +533,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
           <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -544,15 +554,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TestController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="166" column="34" lean-forward="true" selection-start-line="166" selection-start-column="34" selection-end-line="166" selection-end-column="34" />
+        <state relative-caret-position="560">
+          <caret line="156" column="47" lean-forward="false" selection-start-line="156" selection-start-column="47" selection-end-line="156" selection-end-column="47" />
           <folding>
             <element signature="e#39#64#0#PHP" expanded="true" />
             <element signature="e#239#1547#0#PHP" expanded="false" />
             <element signature="e#1552#5361#0#PHP" expanded="false" />
+            <element signature="e#5366#6425#0#PHP" expanded="false" />
             <element signature="e#6430#6801#0#PHP" expanded="false" />
             <element signature="e#6806#6936#0#PHP" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
